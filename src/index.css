@@ -54,11 +54,41 @@
     
 }
 
-  
+  /*-----------------
+    MAIN
+------------------*/
+.main{
+    background-color: #0282f9;
+    display: flex; 
+}
+.upper {
+    display: flex;
+    
+    padding-top: 33px;
+    padding-bottom: 33px;
+    justify-content: space-around;
+margin-left: 300px;
+gap: 60px;
+}
 
-  
-  
+.upper .col {
+    display: flex;
+    align-items: center;
 
+}
+.col h3 {
+    color: #fff;
+    border-top: 50px;
+}
+  
+.col img{
+    width: 50px;
+display: flex;
 
+}
+
+.col {
+    gap:10px
+}
   
  
