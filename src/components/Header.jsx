@@ -3,37 +3,15 @@ export default function Header() {
     <div className="container">
         <img className="logo-img" src="/dc-logo.png" alt="logo"></img>
         <nav className="header-nav">
-            <ul>
-                <li>
-                    <a href="#">CHARACTERS</a>
-                </li>
-                <li>
-                    <a  href="#">COMICS</a>
-                </li>
-                <li>
-                    <a href="#">MOVIES</a>
-                </li>
-                <li>
-                    <a href="#">TV</a>
-                </li>
-                <li>
-                    <a href="#">GAMES</a>
-                </li>
-                <li>
-                    <a href="#">COLLECTIBLES</a>
-                </li>
-                <li>
-                    <a href="#">VIDEOS</a>
-                </li>
-                <li>
-                    <a href="#">FANS</a>
-                </li>
-                <li>
-                    <a href="#">NEWS</a>
-                </li>
-                <li>
-                    <a href="#">SHOP</a>
-                </li>
+        <ul>
+              {navBarHeader.map((navBar) => {
+                return (
+                  <li
+                    key={navBarHeader.id}>
+                    <a href={navBar.url}>{navBar.text}</a>
+                  </li>
+                );
+              })}
             </ul>
         </nav>
     </div>
