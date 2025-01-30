@@ -1,3 +1,5 @@
+import navBarHeader from "../data/navBarHeader";
+
 export default function Header() {
     return (<header>
     <div className="container">
