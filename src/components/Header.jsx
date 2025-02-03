@@ -1,5 +1,5 @@
 import navBarHeader from "../data/navBarHeader";
-
+import ListProduct from "./ListProduct";
 export default function Header() {
     return (<header>
     <div className="container">
@@ -20,9 +20,8 @@ export default function Header() {
     <div className="hero">
         <img src="/jumbotron.jpg" alt="hero" />
       </div>
-    
     <div className="black">
-   
+    <ListProduct/>
      </div>
 </header>
     
