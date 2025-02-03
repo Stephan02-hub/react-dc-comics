@@ -17,9 +17,13 @@ export default function Header() {
             </ul>
         </nav>
     </div>
+    <div className="hero">
+        <img src="/jumbotron.jpg" alt="hero" />
+      </div>
+    
     <div className="black">
-        <h1 >--&gt; Content goes here &lt;--</h1>
-        </div>
+   
+     </div>
 </header>
     
 )
